@@ -1,0 +1,141 @@
+
+@media(min-width:768px) and (max-width:1200px){
+    #right-container{        
+        background: url("../images/full-me.jpg");
+        background-position: right-top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #right-main{
+        padding-top: 40px;
+        background-color:rgba(0, 0, 0, 0.7);
+        font-size: 2em;
+    }
+    #down-arrow{
+        width: 50%;;
+        margin-left: calc(50vw - 30px);
+    }
+    div.h4, div h4 {
+        font-size: 2rem;
+    }
+    .bg-trans{
+        background-color: rgba(52,58,64,1);
+    }
+}
+@media(max-width:767px)and (min-width:451px){
+    #right-container{        
+        background: url("../images/full-me.jpg");
+        background-position: right-top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    div#right-main{
+        margin-top: 15vh;
+        padding-top: 40px;
+        background-color:rgba(0, 0, 0, 0.7);
+    }
+    #down-arrow{
+        margin-left: 35vw;
+    }
+    div.h4, div h4 {
+        font-size: 1.5rem;
+    }
+    .bg-trans{
+        background-color: rgba(52,58,64,1);
+    }
+    #home-third div.p-3 {
+        padding: 1rem!important;
+    }
+}
+
+@media(max-width:450px){
+    div div div.btn-outline-primary{
+        display: block!important;
+        
+    }
+    #right-container{        
+        background: url("../images/full-me.jpg");
+        background-position: left-top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    div#right-main{
+        margin-top: 15vh;
+        padding-top: 40px;
+        background-color:rgba(0, 0, 0, 0.7);
+    }
+    #down-arrow{
+        margin-left: 40vw;
+    }
+    div.h4, div h4 {
+        font-size: 1.5rem;
+    }
+    .bg-trans{
+        background-color: rgba(52,58,64,1);
+    }
+    #home-third div.p-3 {
+        padding: 1rem!important;
+    }
+}
+
+@keyframes bounce {
+    0% {padding-top: 10px;}
+    50% {padding-top: 0px;}
+    100% {padding-top: 10px;}
+  }
+
+  html{
+      scroll-behavior: smooth;
+  }
+
+.image-shape{
+    background: url("../images/me.png");
+    background-position: right-top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh);
+}
+#down-arrow{
+    height: 40px;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+#right-main{
+    margin:auto;
+    margin-top: 30vh;
+    padding-left: 30px;
+    position: relative;
+}
+#right-container{
+    min-height: 100vh;
+}
+#start-container, div#footer, #footer-body{
+    background: rgb(52,58,64);
+    background: linear-gradient(180deg, rgba(52,58,64,1) 0%, rgba(37,40,42,1) 43%, rgba(21,22,23,1) 81%, rgba(0,0,0,1) 100%);
+}
+#home-second{
+    background: rgb(52,58,64);
+    background: linear-gradient(0deg, rgba(52,58,64,1) 0%, rgba(37,40,42,1) 36%, rgba(21,22,23,1) 68%, rgba(0,0,0,1) 100%);
+}
+#home-second-body{    
+    background: rgb(52,58,64);
+}
+.card-img-top{
+    height:65%;
+}
+div.btn{
+    cursor: unset;
+}
+#share i:hover{
+    color:red!important;
+    margin-top: 0px!important;
+}
+li.active{
+    color:blue!important;
+    font-weight: bolder;
+}
+.btn, .btn-outline-primary:hover{
+    background-color: none!important;    
+    cursor: unset;
+}
